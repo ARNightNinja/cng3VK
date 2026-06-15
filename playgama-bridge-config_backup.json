@@ -1,0 +1,57 @@
+{
+    "$schema": "https://bridge.playgama.com/v1/stable/schema.json",
+    "advertisement": {
+        "interstitial": {
+            "preloadOnStart": true
+        },
+        "rewarded": {
+            "preloadOnStart": true
+        },
+        "useBuiltInErrorPopup": true,
+        "backfillId": ""
+    },
+      "payments": [
+    {
+      "id": "offer_1",
+      "yandex": { "id": "offer_1" },
+      "msn":    { "id": "offer_1" }
+      ,"playgama": { "amount": 10 }
+    }    ,
+    {
+      "id": "coins_1",
+      "yandex": { "id": "coins_1" },
+      "msn":    { "id": "coins_1" }
+      ,"playgama": { "amount": 10 }
+    }    ,
+    {
+      "id": "coins_2",
+      "yandex": { "id": "coins_2" },
+      "msn":    { "id": "coins_2" }
+      ,"playgama": { "amount": 10 }
+    }    ,
+    {
+      "id": "diamonds_1",
+      "yandex": { "id": "diamonds_1" },
+      "msn":    { "id": "diamonds_1" }
+      ,"playgama": { "amount": 10 }
+    }    ,
+    {
+      "id": "diamonds_2",
+      "yandex": { "id": "diamonds_2" },
+      "msn":    { "id": "diamonds_2" }
+      ,"playgama": { "amount": 10 }
+    }    ,
+    {
+      "id": "offer_2",
+      "yandex": { "id": "offer_2" },
+      "msn":    { "id": "offer_2" }
+      ,"playgama": { "amount": 10 }
+    }
+  ],
+    "leaderboards": [],
+    "sendAnalyticsEvents": false,
+  "disableLoadingLogo": false,
+  "showFullLoadingLogo": false
+
+
+}
